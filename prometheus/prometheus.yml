@@ -5,4 +5,4 @@ scrape_configs:
   - job_name: "web-api-metrics"
     metrics_path: /metrics
     static_configs:
-      - targets: ["127.0.0.1:3000"]
+      - targets: ["node-fiap:3000"]
